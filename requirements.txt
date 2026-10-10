@@ -8,4 +8,6 @@ streamlit
 langchain_groq
 langsmith
 groq
-faiss
+faiss-cpu
+sentence-transformers
+pypdf
