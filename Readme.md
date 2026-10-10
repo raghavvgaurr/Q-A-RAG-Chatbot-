@@ -15,6 +15,7 @@ Ask general questions, explore your documents, view retrieved source passages, a
 
 ---
 
+
 ## ✨ Overview
 
 Universal QA Assistant brings two capabilities together in one application:
@@ -57,6 +58,7 @@ Ask questions outside your documents using the same conversational interface.
 | 📚 Source References    | Inspect retrieved passages, filenames, and page numbers.                         |
 | 🎛️ Model Configuration | Configure the Groq model, temperature, and response length.                      |
 | 🧩 Modular Architecture | Separate document loading, splitting, retrieval, prompts, and application logic. |
+| 🔍 LLM Observability | Trace and debug LLM calls, inspect execution flows, and monitor application behavior using LangSmith. |
 
 ---
 
@@ -291,6 +293,22 @@ The interface displays the answer and the passages retrieved from the documents.
 
 This approach helps ground answers in document content, although retrieval and generated answers can still be incorrect.
 
+### Configure LangSmith (Optional)
+
+LangSmith provides observability for tracing and debugging your LangChain application. It can help you inspect model calls, prompt inputs and outputs, retrieval steps, and execution latency where supported by your tracing configuration.
+
+Add the following variables to your local `.env` file if LangSmith tracing is enabled:
+
+```env
+LANGSMITH_TRACING=true
+LANGSMITH_API_KEY=your_langsmith_api_key
+LANGSMITH_PROJECT=universal-qa-assistant
+```
+
+You can create or manage your tracing projects through [LangSmith](https://smith.langchain.com/).
+
+Keep your LangSmith API key private. Review what data is captured in traces before using real user documents or sensitive information.
+
 ---
 
 ## 🔐 Security and Limitations
@@ -323,15 +341,13 @@ This approach helps ground answers in document content, although retrieval and g
 - [ ] Automated testing and CI/CD deployment
 
 ---
-
+![alt text](<Screenshot 2026-10-10 234651.png>) 
+![alt text](<Screenshot 2026-10-10 234835.png>)
 ## ☁️ Deployment
 
 The application can be deployed using:
 
-- [Streamlit Community Cloud](https://share.streamlit.io/) — quick portfolio deployment.
-- [Render](https://render.com/) — hosted web application.
-- [Hugging Face Spaces](https://huggingface.co/spaces) — AI application demos, subject to supported runtime configuration.
-- [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) — managed application deployment.
+- [Streamlit Community Cloud](https://conversational-ragbot.streamlit.app/) — quick portfolio deployment.
 - Docker with a container-hosting platform — reproducible deployments.
 
 For a first public demo, Streamlit Community Cloud is a practical starting point. For a more advanced portfolio project, add automated testing and CI/CD after the application is working reliably.
@@ -343,9 +359,7 @@ For a first public demo, Streamlit Community Cloud is a practical starting point
 **Raghav Gaur**
 
 B.Tech — Robotics and Artificial Intelligence
-
 Interested in AI Engineering, Machine Learning, Generative AI, RAG systems, and Robotics.
-
 - GitHub: [@raghavvgaurr](https://github.com/raghavvgaurr)
 
 ---
