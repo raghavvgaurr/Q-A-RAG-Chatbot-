@@ -1,7 +1,7 @@
 
 from tempfile import NamedTemporaryFile
-
 from langchain_community.document_loaders import PyPDFLoader
+
 
 
 def load_pdf(uploaded_file):

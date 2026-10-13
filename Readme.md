@@ -6,15 +6,6 @@ A conversational AI application that combines **Groq-powered general chat** with
 
 Ask general questions, explore your documents, view retrieved source passages, and ask follow-up questions — all through a single Streamlit interface.
 
-\<p align="center">
-&#x20; \<img src="[https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge\&logo=python\&logoColor=white)" alt="Python">
-&#x20; \<img src="[https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge\&logo=streamlit\&logoColor=white)" alt="Streamlit">
-&#x20; \<img src="[https://img.shields.io/badge/LangChain-Framework-1C3C3C?style=for-the-badge](https://img.shields.io/badge/LangChain-Framework-1C3C3C?style=for-the-badge)" alt="LangChain">
-&#x20; \<img src="[https://img.shields.io/badge/Groq-LLM-F55036?style=for-the-badge](https://img.shields.io/badge/Groq-LLM-F55036?style=for-the-badge)" alt="Groq">
-\</p>
-
----
-
 
 ## ✨ Overview
 
