@@ -498,3 +498,14 @@ The project is evolving from a basic document-question-answering prototype towar
 Its strongest engineering contribution will be a reproducible evaluation framework that demonstrates how retrieval, model choice, structured validation, and routing affect answer quality and performance.
 
 The next priority is to establish trustworthy correctness and grounding measurements before introducing additional architectural complexity. That baseline will guide future development and ensure that claimed improvements are supported by experimental evidence.
+
+
+-------------------------------------------------------------------------------
+- [Streamlit Community Cloud](https://conversational-ragbot.streamlit.app/) — quick portfolio deployment.
+---
+## 👨‍💻 Author
+**Raghav Gaur**
+B.Tech — Robotics and Artificial Intelligence
+Interested in AI Engineering, Machine Learning, Generative AI, RAG systems, and Robotics.
+- GitHub: [@raghavvgaurr](https://github.com/raghavvgaurr)
+---
